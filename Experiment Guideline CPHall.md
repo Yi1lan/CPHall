@@ -9,10 +9,10 @@
 - NVIDIA A100 40 GB (booked)
 ### Software
 ```bash
-conda create -n cp-hallucination python=3.11 -y
+conda create -n cp-hallucination python=3.10 -y
 conda activate cp-hallucination
 # core libs
-pip install torch==2.2.1 lightgbm==4.3.0 transformers==4.41.0 accelerate==0.29.3
+pip install torch==2.1.2+cu118 lightgbm==4.3.0 transformers==4.41.0 accelerate==0.29.3
 pip install scikit-learn==1.5.0 pandas==2.2.2 numpy==1.26.4
 pip install openai==1.30.0 datasets==2.19.0 matplotlib==3.9.0 seaborn==0.13.2
 # conformal libs
